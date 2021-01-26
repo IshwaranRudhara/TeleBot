@@ -16,11 +16,11 @@ from telethon.tl import functions
 from telebot import CMD_HELP
 
 COLLECTION_STRING = [
-    "indian-actress-wallpapers",
-    "latest-bollywood-actress-wallpapers-2018-hd",
-    "bollywood-actress-wallpaper",
+    "mallu-actress-wallpapers",
+    "latest-sunnyleone-actress-wallpapers-2020-hd",
+    "sunnyleone-actress-wallpaper",
     "hd-wallpapers-of-bollywood-actress",
-    "new-bollywood-actress-wallpaper-2018",
+    "hot-bollywood-actress-wallpaper-2020",
 ]
 
 
@@ -69,7 +69,7 @@ async def main(event):
 
         os.system("rm -rf donottouch.jpg")
 
-        await asyncio.sleep(600)  # Edit this to your required needs
+        await asyncio.sleep(10)  # Edit this to your required needs
 
 
 CMD_HELP.update(
